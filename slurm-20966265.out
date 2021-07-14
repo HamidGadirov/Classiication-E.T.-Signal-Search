@@ -1,0 +1,45 @@
+Start training the model on GRID V100D-32Q
+Epoch 0/19
+____________________
+slurmstepd: error: *** JOB 20966265 ON pg-gpu22 CANCELLED AT 2021-07-12T01:04:39 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Peregrine Cluster
+Job 20966265 for user 'p303872'
+Finished at: Mon Jul 12 01:04:41 CEST 2021
+
+Job details:
+============
+
+Job ID              : 20966265
+Name                : train2.sh
+User                : p303872
+Partition           : gpu
+Nodes               : pg-gpu22
+Number of Nodes     : 1
+Cores               : 12
+State               : CANCELLED,TIMEOUT
+Submit              : 2021-07-12T00:52:17
+Start               : 2021-07-12T00:52:17
+End                 : 2021-07-12T01:04:40
+Reserved walltime   : 00:12:00
+Used walltime       : 00:12:23
+Used CPU time       : 00:15:11 (efficiency: 10.22%)
+% User (Computation): 85.73%
+% System (I/O)      : 14.27%
+Mem reserved        : 8000M/node
+Max Mem used        : 2.48G (pg-gpu22)
+Max Disk Write      : 0.00  (pg-gpu22)
+Max Disk Read       : 40.96K (pg-gpu22)
+Average GPU usage   : 37.6% (pg-gpu22)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

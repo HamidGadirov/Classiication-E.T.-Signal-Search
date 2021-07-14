@@ -1,0 +1,45 @@
+Start training the model on Tesla K40m
+Epoch 0/19
+____________________
+slurmstepd: error: *** JOB 20966267 ON pg-gpu04 CANCELLED AT 2021-07-12T01:04:39 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Peregrine Cluster
+Job 20966267 for user 'p303872'
+Finished at: Mon Jul 12 01:04:41 CEST 2021
+
+Job details:
+============
+
+Job ID              : 20966267
+Name                : train4.sh
+User                : p303872
+Partition           : gpu
+Nodes               : pg-gpu04
+Number of Nodes     : 1
+Cores               : 12
+State               : CANCELLED,TIMEOUT
+Submit              : 2021-07-12T00:52:22
+Start               : 2021-07-12T00:52:23
+End                 : 2021-07-12T01:04:40
+Reserved walltime   : 00:12:00
+Used walltime       : 00:12:17
+Used CPU time       : 00:18:58 (efficiency: 12.87%)
+% User (Computation): 70.47%
+% System (I/O)      : 29.53%
+Mem reserved        : 8000M/node
+Max Mem used        : 1.94G (pg-gpu04)
+Max Disk Write      : 0.00  (pg-gpu04)
+Max Disk Read       : 71.68K (pg-gpu04)
+Average GPU usage   : 26.4% (pg-gpu04)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################
